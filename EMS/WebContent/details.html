@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Details</title>
+<style>
+	body{
+		 margin:200px 150px; 
+    padding:0;
+    background-color: lightblue;
+    font-family:serif;
+   	font-size: large;
+	}
+</style>
+</head>
+<body>
+	
+		<form action ="DetailsEntered" method ="post">
+		<table align = "center">
+			<tr>
+				<td>Name <font color = "red">*</font> 
+				</td>
+				<td>
+					<input type = "text" name ="Name" placeholder="Enter your Full name" required><br>
+				</td>
+			</tr>
+			<tr></tr><tr></tr>
+			<tr>
+				<td>Age <font color = "red">*</font> 
+				</td>
+				<td>
+					<input type = "number" min="20" max ="45" name ="Age" required><br>
+				</td>
+			</tr>
+			<tr><tr></tr></tr>
+			<tr>
+				<td>Date Of Birth <font color = "red">*</font> 
+				</td>
+				<td>
+					<input type = "date"  name ="dob"  required>
+				</td>
+			</tr>
+			<tr><tr></tr></tr>
+			<tr>
+				<td>Address <font color = "red">*</font> 
+				</td>
+				<td>
+					<textarea rows="3" cols="25" name="Address"></textarea>
+				</td>
+			</tr>
+			<tr></tr><tr></tr>
+			<tr>
+				<td>Salary</td>
+				<td><input type="number" placeholder="Salary"></td>
+			</tr>
+			<tr></tr><tr></tr>
+			<tr>
+				<td>Description <font color ="red">*</font></td>
+				<td><textarea rows ="3" cols = "25" name="Description"></textarea>
+			</td>
+			</tr>
+			<tr></tr><tr></tr>
+			<tr>
+				<td>E-mail <font color = "red">*</font></td>
+				<td><input type="email" name = "Email" placeholder="mail"></td>
+			</tr>
+			<tr></tr><tr></tr>
+			<tr>
+				<td>Phone Number <font color ="red">*</font></td>
+				<td><input type ="text" name="Phone" placeholder="number"   >
+				</td>
+			</tr>
+			
+			
+ 			</table><br>
+ 		
+ 			<table align = "center">
+ 			<tr>
+ 				<td><input type="submit" value="Submit" style="background-color: lightgreen;font-style oblique;color: green"></td>
+				<td><input type="reset" value="Reset" style="background-color: lightred;font-style: italic;color:red"></td>
+				</tr>
+				
+ 			</table>
+			
+			
+	</form>
+	
+	
+</body>
+</html>
